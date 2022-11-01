@@ -37,12 +37,12 @@ public class vatan_dji_mini2 {
 
 				driver.findElement(By.xpath("//input[@id='email']")).click();
 				driver.findElement(By.xpath("//input[@id='email']")).clear();
-				driver.findElement(By.xpath("//input[@id='email']")).sendKeys("bircanmelih@gmail.com");
+				driver.findElement(By.xpath("//input[@id='email']")).sendKeys("b@gmail.com");
 				
 				// 4. Enter password
 				driver.findElement(By.id("pass")).click();
 				driver.findElement(By.id("pass")).clear();
-				driver.findElement(By.id("pass")).sendKeys("cglmlh27");
+				driver.findElement(By.id("pass")).sendKeys("aaa");
 				
 				// 5. Click login button
 				driver.findElement(By.id("login-button")).click();
